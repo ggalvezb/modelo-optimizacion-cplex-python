@@ -1,0 +1,22 @@
+CONECTAR CPLEX CON PYTHON:
+
+Requisitos:
+1)Tener instalado Cplex
+2)Tener instalado Anaconda
+
+Pasos:
+1)Crear ambiente de python 3.5:
+	-)Abrir Anaconda Prompt como ADMINISTRADOR
+	-)Tipiar: conda create -n py35 python=3.5
+	-)Tipiar: activate py35
+
+2)Ubicar archivo setup.py:
+	-)Este archivo se encuentra en la dirección donde cplex esta instalado.
+	-)Ejemplo: C:\Program Files\IBM\ILOG\CPLEX_Studio1271\cplex\python\3.5\x64_win64
+	-)Ubicar dirección del archivo y copiarla
+
+3)Conectar Cplex con python:
+	-)Volver al anaconda prompt y tipiar: cd "Ubicación archivo setup.py(Pegar dirección anterior)"
+	-)Tipiar: python setup.py install
+
+LISTO. 
